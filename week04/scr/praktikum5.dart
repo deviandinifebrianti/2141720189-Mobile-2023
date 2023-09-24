@@ -4,13 +4,13 @@ void main (){
 
 
 
-  (int, int) tukar((int, int) record) {
-  var (a, b) = record;
-  return (b, a);
+  // (int, int) tukar((int, int) record) {
+  // var (a, b) = record;
+  // return (b, a);
 
-  var record = (1,2);
-  print(record);
-  print(tukar(record));
-  }
+  // var record = (1,2);
+  // print(record);
+  // print(tukar(record));
+  // }
 
 }
