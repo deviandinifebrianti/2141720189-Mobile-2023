@@ -77,18 +77,45 @@ Terjadi error karena login belum diinisialisasi, maka perbaikannya seperti ini
 Kode ini digunakan untuk membuat List "listOfStrings" berisi string yang dihasilkan dan kemudian dicek elemen kedua dari List "listOfStrings" adalah "#1" dan menggabungkannya dengan tanda pagar (#).
 
 - Praktikum 5:
-![Getting Started](docs/praktikum5/langkah1.png)
-Terjadi error karena kurang ; diakhir kode
 
+'langkah 1'
+![Getting Started](docs/praktikum5/langkah1.png)
+Terjadi error karena kurang ; diakhir kode.
+
+'langkah2'
+![Getting Started](docs/praktikum5/langkah2.png)
+Penjelasan: Collection record menyimpan data dengan berbagai tipe, seperti string, list, dan map.
+
+'langkah 3'
+![Getting Started](docs/praktikum5/langkah3.png)
+Penjelasan: terjadi penukaran field dengan menggunakan fungsi tukar (memudahkan)
+
+'langkah 4'
+![Getting Started](docs/praktikum5/langkah4.png)
+Terjadi eror karena belum diinisialisasikan nilai mahasiswanya.
+![Getting Started](docs/praktikum5/langkah4_perbaikan.png)
+
+'langkah 5'
+![Getting Started](docs/praktikum5/langkah5.png)
+Penjelasan: Kode ini merecord mulai dari 1 dan untuk memanggilnya harus menggunakan simbol "$". Selain itu bisa memanggil berdasarkan key jika merupakan key-value (map).
 
 2. Jelaskan yang dimaksud Functions dalam bahasa Dart!
 - Functions dalam dart digunakan untuk menjalankan tugas yang spesifik dalam program. Dapat di definisikan dengan memberikan nama, beberapa parameter dan tipe data yang dikembalikan. Fungsi biasanya dideklarasikan dengan kata kunci void.
 
 3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
+- Digunakan untuk meneruskan fungsi sebagai parameter ke fungsi lain dan menetapkannya ke variabel.
 
+contohnya:
+ ```
+ void printElement(int element) {
+     print(element);
+ }
 
+ var list = [1, 2, 3];
 
-
+ // Pass printElement as a parameter.
+ list.forEach(printElement);
+ ```
 
 4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
 "Functions as First-Class Objects" merujuk pada kemampuan bahasa pemrograman untuk memperlakukan fungsi secara fleksibilitas karena dfungsi dapat diperlakukan seperti data biasa.
@@ -150,3 +177,9 @@ void main() {
 - Kesimpulannya:  lexical scope berkaitan dengan  variabel diakses dalam kode berdasarkan struktur penulisan, sedangkan lexical closures berkaitan dengan fungsi menyimpan referensi ke variabel dari lingkup luar.
 
 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
+- Dart tidak menggunakan return multiple,namun dart bisa menggunakan list, map dan lain sebagainya.
+Map<String, dynamic> contohFungsi() {
+  var nama = "Devi Andini";
+  var umur = 20;
+  return {'nama': nama, 'umur': umur};
+}
