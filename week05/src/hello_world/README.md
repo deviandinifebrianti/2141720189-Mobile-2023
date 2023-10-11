@@ -60,6 +60,8 @@ flutter:
 ```
 "Dokumentasi"
 ![Getting Started](images/03.png)
+Dokumentasi melalui handphone
+![Getting Started](images/12.jpeg)
 
 #### Praktikum 4: Menerapkan Widget Material Design dan iOS Cupertino
 ##### Langkah 1: Cupertino Button dan Loading Bar
@@ -297,6 +299,8 @@ Berikut adalah hasil modifikasi kode main.dart diatas
 ![Getting Started](images/07.png)
 Dan kolom nama bisa di isi seperti berikut ini
 ![Getting Started](images/08.png)
+Berikut adalah dokumentasi melalui device handphone
+![Getting Started](images/13.gif)
 
 ### Langkah 6: Date and Time Pickers
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
@@ -382,15 +386,24 @@ Ketika memilih tanggal
 ![Getting Started](images/10.png)
 Dan ini hasil setelah mengganti tanggal
 ![Getting Started](images/11.png)
+Berikut dokumentasi dari handphone
+![Getting Started](images/14.gif)
 
 ------
- ### Tugas Praktikum
-1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
+ # Tugas Praktikum
+### 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
+#### Jawab: Sudah saya lakukan diatas
 
-2. Pada praktikum 4 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
+### 2. Pada praktikum 4 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
+#### Jawab: ![Getting Started](images/15.png)
 
-3. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
+### 3. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
+#### Jawab: Berikut ini link repository
+https://github.com/deviandinifebrianti/2141720189-Mobile-2023/tree/main/week05/src/namer_app 
 
-4. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) di browser dan perangkat fisik (device) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda. Jika mode developer di perangkat HP Anda belum aktif, silakan cari di internet cara mengaktifkannya!
+### 4. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) di browser dan perangkat fisik (device) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda. Jika mode developer di perangkat HP Anda belum aktif, silakan cari di internet cara mengaktifkannya!
+#### Jawab: Sudah saya dokumentasikan diatas
 
-5. Kumpulkan berupa link repository/commit GitHub Anda ke tautan spreadsheet yang telah disepakati oleh dosen!
+### 5. Kumpulkan berupa link repository commit GitHub Anda ke tautan spreadsheet yang telah disepakati oleh dosen!
+#### Jawab: Link repository
+https://github.com/deviandinifebrianti/2141720189-Mobile-2023/tree/main/week05/src
