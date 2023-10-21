@@ -1,16 +1,20 @@
-# belanja
+## Nama     : Devi Andini Febrianti
+## Kelas    : D4TI-3H
+## NIM      : 2141720189
+## Matkul   : Mobile
 
-A new Flutter project.
+Berikut ini adalah dokumentasi dari Navigasi & Rute
 
-## Getting Started
+- Dokumentasi dari Handphone
+![Getting Started](images/01.jpeg)
 
-This project is a starting point for a Flutter application.
+- Dokumentasi dari handphone berupa video
+![Getting Started](images/02.gif)
 
-A few resources to get you started if this is your first Flutter project:
+- Dokumentasi dari handphone berupa video
+![Getting Started](images/02.gif)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Dokumentasi dari Windows
+![Getting Started](images/03.png)
+![Getting Started](images/04.png)
+![Getting Started](images/05.png)
