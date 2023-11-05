@@ -18,3 +18,6 @@ Berikut ini adalah dokumentasi dari Navigasi & Rute
 ![Getting Started](images/03.png)
 ![Getting Started](images/04.png)
 ![Getting Started](images/05.png)
+
+- Dokumentasi tugas
+![Getting Started](images/tugas.gif)
