@@ -108,3 +108,16 @@ Penjelasan: `substring` untuk mengambil sebagian dari sttring. contohnya `value.
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
 ![Getting Started](docs/1.gif)
+
+
+## Praktikum 2: Menggunakan await/async untuk menghindari callbacks
+- Tambah dan panggil method count()
+![Getting Started](docs/3.JPG)
+
+## Soal 4 
+- Jelaskan maksud kode langkah 1 dan 2 tersebut!
+
+Penjelasan: Kode diatas mempunyai 3 fungsi asinkron dan menunda 3 detik sebelum mengembalikan nilai. sedangkan praktikum 2 memjumlahkan total yang telah dilakukan oleh asinkron yang disimpan di total.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
+![Getting Started](docs/4.jpg)
