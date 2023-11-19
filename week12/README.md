@@ -142,3 +142,18 @@ Penjelasan: fungsi `getNumber()` digunakan untuk memulai operasi asinkron dan me
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
 ![Getting Started](docs/5.gif)
+
+- tambah method calculate2()
+![Getting Started](docs/6.PNG)
+
+- Ganti kode onPressed()
+![Getting Started](docs/onPressed.PNG)
+
+## Soal 6
+- Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+
+perbedaannya hanya berada di cara menangani operasi asinkron saja. langkah 2 menyelesaikan `completer` sekali sesudah melakukan penghitungan 42. sedangkan langkah 5-6 menggunakan `try-catch` untuk memastikan completer cuma dilakukan sekali saja, meskipun beberapa operasi asinkron dipanggil.
+
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+![Getting Started](docs/hasil.gif)
