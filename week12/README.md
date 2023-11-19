@@ -121,3 +121,24 @@ Penjelasan: Kode diatas mempunyai 3 fungsi asinkron dan menunda 3 detik sebelum 
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
 ![Getting Started](docs/4.jpg)
+
+
+## Praktikum 3: Menggunakan Completer di Future
+
+- tambah variabel di `class _FuturePageState`
+![Getting Started](docs/4.png)
+
+- ganti kode di onPressed() menjadi
+`getNumber().then((value){`
+  `setState((){`
+  `result = value.toString();`
+  `});`
+`});`
+
+## Soal 5
+- Jelaskan maksud kode langkah 2 tersebut!
+
+Penjelasan: fungsi `getNumber()` digunakan untuk memulai operasi asinkron dan mengembalikan `future` untuk hasil akhir. `calculate()` melakukan perhitungan asinkron sebenarnya dan menyelesaikan future saat perhitungan selesai. kedua contoh ini digunakan untuk mengambil nilai 42. 
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+![Getting Started](docs/5.gif)
