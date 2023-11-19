@@ -90,3 +90,21 @@ Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabe
 
 - Akses ke browser
 ![Getting Started](docs/2.png)
+
+- Tambah kode `onPressed` di `ElevatedButton` sebagai berikut:
+`setState(() {});
+              getData().then((value) {
+                result = value.body.toString().substring(0, 450);
+                setState(() {});
+              }).catchError((_) {
+                result = 'An error occurred';
+                setState(() {});
+              });`
+
+### Soal 3
+- Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
+
+Penjelasan: `substring` untuk mengambil sebagian dari sttring. contohnya `value.body.toString` mengambil sebuah string dari hasil pemanggilan getData() dan hasil variabel di simpan di result. Sedangkan `catchError` untuk menyelesaikan error saat menjalankan fungsi. 
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
+![Getting Started](docs/1.gif)

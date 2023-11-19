@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'dart:html';
+// import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
@@ -44,7 +44,16 @@ class _FuturePageState extends State<FuturePage>{
           const Spacer(),
           ElevatedButton(
             child: const Text('GO!'),
-            onPressed: (){},
+            onPressed: (){
+              setState(() {});
+              getData().then((value) {
+                result = value.body.toString().substring(0, 450);
+                setState(() {});
+              }).catchError((_) {
+                result = 'An error occurred';
+                setState(() {});
+              });
+            },
           ),
           const Spacer(),
           Text(result),
