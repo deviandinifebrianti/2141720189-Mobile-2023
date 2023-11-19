@@ -163,3 +163,11 @@ perbedaannya hanya berada di cara menangani operasi asinkron saja. langkah 2 men
 ## Soal 7
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
 ![Getting Started](docs/7.jpg)
+
+- ganti variabel futureGroup
+![Getting Started](docs/8.png)
+
+## Soal 8
+Jelaskan maksud perbedaan kode langkah 1 dan 4!
+
+Penjelasan: Langkah 1 menggunakan `FutureGroup` untuk mengelola asinkron, futureGroup menyediakan cara yang terstruktur untuk menangani sekelompok future. langkah 4 menggunakan `Future.wait()`untuk menunggu future dan mengambil daftar future. 
