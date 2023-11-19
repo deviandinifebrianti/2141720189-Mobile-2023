@@ -157,3 +157,9 @@ perbedaannya hanya berada di cara menangani operasi asinkron saja. langkah 2 men
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
 ![Getting Started](docs/hasil.gif)
+
+## Praktikum 4: Memanggil Future secara paralel
+
+## Soal 7
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
+![Getting Started](docs/7.jpg)
