@@ -216,3 +216,13 @@ hasil run
 ![Getting Started](docs/12b.png)
 
 ## Praktikum 7: Manajemen Future dengan FutureBuilder
+
+## Soal 13 dan 14
+- Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+> Keduanya sama-sama menampilkan koordinat geolokasi dengan layout yang sama, karena keduanysa sama-sama mengambil lokasi pengguna secara langsung. 
+
+- Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
+> Untuk pembaruan UI, pada kasus pertama, setState digunakan untuk memperbarui variabel state myPosition. Pada kasus kedua, FutureBuilder digunakan untuk mengelola pembaruan UI secara otomatis. Namun pada akhirnya, hasil tampilan UI terlihat sama karena keduanya memiliki penundaan yang sama, yakni 3 detik.
+
+- hasil run 13 dan 14
+![Getting Started](docs/14.jpg)
