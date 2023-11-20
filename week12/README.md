@@ -244,3 +244,10 @@ hasil run
 
 - Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
 ![Getting Started](docs/16.gif)
+
+## Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+
+## Soal 17
+Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian?
+> Karena "Change Color" dan memilih warna pada dialog, layar akan mengalami perubahan pada warna latar belakang.Hal ini disebabkan karena warna dalam fungsi _showColorDialog, diikuti dengan pembaruan widget menggunakan setState. Tindakan ini akan memicu pembangunan ulang widget dan mencerminkan perubahan warna yang telah dipilih pada layar.
+![Getting Started](docs/17.gif)
