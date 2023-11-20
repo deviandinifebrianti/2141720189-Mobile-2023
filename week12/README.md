@@ -171,3 +171,47 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Jelaskan maksud perbedaan kode langkah 1 dan 4!
 
 Penjelasan: Langkah 1 menggunakan `FutureGroup` untuk mengelola asinkron, futureGroup menyediakan cara yang terstruktur untuk menangani sekelompok future. langkah 4 menggunakan `Future.wait()`untuk menunggu future dan mengambil daftar future. 
+
+
+## Praktikum 5: Menangani Respon Error pada Async Code
+
+- menambahkan metdhod di class _FuturePageState
+![Getting Started](docs/lkh1.png)
+
+- Mengganti kode elevatedButton
+
+![Getting Started](docs/lkh2.png)
+
+hasil debuge console
+![Getting Started](docs/complete.png)
+
+## Soal 9
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
+![Getting Started](docs/10.gif)
+
+## Soal 10
+Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+
+Penjelasan: Perbedaan kode langkah 1 dan kode langkah 4 adalah pada penanganan error. langkah 1, method returnError() tidak menangani error yang terjadi. Jika error terjadi, maka method tersebut akan berhenti dan tidak mengembalikan nilai apa pun.
+Sedangkan pada langkah 4, method handleError() menangani error yang terjadi dengan menggunakan try-catch-finally. Pada try block, method handleError() mencoba untuk menjalankan method returnError(). Jika error terjadi, maka try block akan berhenti dan error akan ditangkap oleh catch block. Pada catch block, method handleError() akan menampilkan error ke layar menggunakan print(). Finally block akan selalu dijalankan, terlepas dari apakah ada error yang terjadi atau tidak.
+
+## Praktikum 6: Menggunakan Future dengan StatefulWidget
+- install plugin geolocator
+
+## Soal 11
+Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+![Getting Started](docs/title.PNG)
+
+hasil run
+![Getting Started](docs/run.gif)
+
+![Getting Started](docs/11.jpg)
+
+## Soal 12
+- Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+
+- Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+
+## Praktikum 7: Manajemen Future dengan FutureBuilder
