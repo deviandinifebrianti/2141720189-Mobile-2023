@@ -209,9 +209,10 @@ hasil run
 
 ## Soal 12
 - Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+![Getting Started](docs/12.gif)
 
 - Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
-
-- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+>iya mendapatkan koordinat GPS ketika di run, hal ini dikarenakan menggunakaan API Geolocation dari google untuk mendapatkan informasi lokasi. Jika telah mengaktifkan izin lokasi dan GPS maka google akan mendapatkan informasi yang dibutuhkan.
+![Getting Started](docs/12b.png)
 
 ## Praktikum 7: Manajemen Future dengan FutureBuilder
