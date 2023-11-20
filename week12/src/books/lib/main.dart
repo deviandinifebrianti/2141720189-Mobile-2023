@@ -5,6 +5,7 @@ import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 import 'package:async/async.dart';
 import 'package:books/geolocation.dart';
+import 'package:books/navigation_first.dart';
 
 void main(){
   runApp(const MyApp());
@@ -18,11 +19,12 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       title: 'Books Devi',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        // primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       // home: const FuturePage(),
-      home: LocationScreen(),
+      // home: LocationScreen(),
+      home: NavigationFirst(),
     );
   }
 }

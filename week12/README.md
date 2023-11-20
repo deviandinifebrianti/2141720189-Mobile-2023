@@ -226,3 +226,21 @@ hasil run
 
 - hasil run 13 dan 14
 ![Getting Started](docs/14.jpg)
+
+## Praktikum 8: Navigation route dengan Future Function
+
+## Soal 15
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+![Getting Started](docs/devi.PNG)
+
+- Silakan ganti dengan warna tema favorit Anda.
+![Getting Started](docs/pink.PNG)
+
+## Soal 16
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian?
+>warna akan berubah sesuai dengan warna yang telah ditetapkan pada widget ElevatedButton() di class navigation_second.dart, karena setiap tombol memiliki fungsi Navigation.pop() yang memiliki parameter berupa context dan warna yang telah ditetapkan.
+
+![Getting Started](docs/15.gif)
+
+- Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+![Getting Started](docs/16.gif)
