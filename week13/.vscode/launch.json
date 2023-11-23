@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "stream_devi",
+            "cwd": "src\\stream_devi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "stream_devi (profile mode)",
+            "cwd": "src\\stream_devi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "stream_devi (release mode)",
+            "cwd": "src\\stream_devi",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
