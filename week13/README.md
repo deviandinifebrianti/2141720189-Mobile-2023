@@ -44,3 +44,12 @@ Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
 - Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
 
 ![Getting Started](docs/5.PNG)
+
+## Praktikum 3: Injeksi data ke streams
+
+### Soal 8
+- Jelaskan maksud kode langkah 1-3 tersebut!
+> Maksud dari kode langkah 1-3 digunakan untuk mengubah data.pada kode tersebut `number` akan dikalikan `10` apabila mendapatkan data dan bernilai `-1` apabila terjadi error.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+![Getting Started](docs/6.gif)
