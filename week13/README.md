@@ -24,3 +24,7 @@ Lakukan commit hasil jawaban Soal 1 dengan pesan "W13: Jawaban Soal 1"
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 
 ![Getting Started](docs/3.gif)
+
+### Soal 5
+Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+> mereka sama-sama dipergunakan untuk menangani operasi asinkron. Penggunaan `listen` memanggil ururtan peristiwa dari waktu ke waktu (secara terarah). sedangkan `await for` mengulang aliran/menunggu peristiwa warna berikut yang akan dikeluarkan (secara beruruan).
