@@ -37,3 +37,10 @@ Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 
 ![Getting Started](docs/4.gif)
+
+### Soal 7
+- Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+> digunakan untuk mengatasi error pada `stream` dengan menggunakan fungsi `addError()`. Kode `onError()` digunakan untuk menghandle error `stream`. Sedangkan `numberStream.addError()` digunakan untuk menginisialisasi error pada `stream`.
+- Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+
+![Getting Started](docs/5.PNG)

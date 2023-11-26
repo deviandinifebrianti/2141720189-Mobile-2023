@@ -27,4 +27,8 @@ class ColorStream {
   close() {
     controller.close();
   }
+
+  addError() {
+    controller.sink.addError('error');
+  }
 }
