@@ -19,3 +19,8 @@ Lakukan commit hasil jawaban Soal 1 dengan pesan "W13: Jawaban Soal 1"
 ### Soal 3
 - Jelaskan fungsi keyword yield* pada kode tersebut!
 > digunakan untuk mendelegasikan pembuatan event dari fungsi Stream.periodic() ke objek iterable colors. hal ini memungkinkan stream untuk lebih efisien tanpa banyak memakan memori di awal. Ini hanya mengeluarkan warna berikutnya saat event sebelumnya telah diproses, memastikan emisi event yang lancar dan konsisten.
+
+### Soal 4
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+![Getting Started](docs/3.gif)
