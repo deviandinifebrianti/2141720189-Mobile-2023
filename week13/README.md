@@ -28,3 +28,12 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ### Soal 5
 Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
 > mereka sama-sama dipergunakan untuk menangani operasi asinkron. Penggunaan `listen` memanggil ururtan peristiwa dari waktu ke waktu (secara terarah). sedangkan `await for` mengulang aliran/menunggu peristiwa warna berikut yang akan dikeluarkan (secara beruruan).
+
+## Praktikum 2: Stream controllers dan sinks
+
+### Soal 6
+- Jelaskan maksud kode langkah 8 dan 10 tersebut!
+> digunakan untuk menginisialiasi `stream` baru yakni `NumberStream`. Sedangkan pada langkah 10 digunakan untuk mengenerate random number lalu menambahkannya ke `stream` menggunakan `sink.add()`.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+
+![Getting Started](docs/4.gif)
